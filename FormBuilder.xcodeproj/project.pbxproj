@@ -13,6 +13,7 @@
 		BC2CAAA423CF827600E2FE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAAA323CF827600E2FE1D /* Assets.xcassets */; };
 		BC2CAAA723CF827600E2FE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAAA623CF827600E2FE1D /* Preview Assets.xcassets */; };
 		BC2CAAAA23CF827600E2FE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAAA823CF827600E2FE1D /* LaunchScreen.storyboard */; };
+		BC2CAAB323CF878D00E2FE1D /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2CAAB223CF878D00E2FE1D /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC2CAAA623CF827600E2FE1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC2CAAA923CF827600E2FE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC2CAAAB23CF827600E2FE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2CAAB223CF878D00E2FE1D /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BC2CAA9C23CF827500E2FE1D /* FormBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				BC2CAAB123CF875C00E2FE1D /* Views */,
 				BC2CAA9D23CF827500E2FE1D /* AppDelegate.swift */,
 				BC2CAA9F23CF827500E2FE1D /* SceneDelegate.swift */,
 				BC2CAAA123CF827500E2FE1D /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				BC2CAAA623CF827600E2FE1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC2CAAB123CF875C00E2FE1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CAAB223CF878D00E2FE1D /* LabelView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2CAA9E23CF827500E2FE1D /* AppDelegate.swift in Sources */,
+				BC2CAAB323CF878D00E2FE1D /* LabelView.swift in Sources */,
 				BC2CAAA023CF827500E2FE1D /* SceneDelegate.swift in Sources */,
 				BC2CAAA223CF827500E2FE1D /* ContentView.swift in Sources */,
 			);

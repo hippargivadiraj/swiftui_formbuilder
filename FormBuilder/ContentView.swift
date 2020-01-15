@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var  name: String = ""
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+        VStack(alignment: .leading, spacing: 1 ){
+            LabelView(name: self.name, label: "First Name")
+            LabelView(name: self.name, label: "Last Name")
+            LabelView(name: self.name, label: "Middle Name")
+            LabelView(name: self.name, label: "Company")
+            LabelView(name: self.name, label: "First Name")
+            LabelView(name: self.name, label: "Last Name")
+            LabelView(name: self.name, label: "Middle Name")
+            LabelView(name: self.name, label: "Company")
+            LabelView(name: self.name, label: "First Name")
+            .navigationBarTitle("Profile")
+        }.padding()
+    }
     }
 }
 
