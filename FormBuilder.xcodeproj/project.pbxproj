@@ -14,6 +14,7 @@
 		BC2CAAA723CF827600E2FE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAAA623CF827600E2FE1D /* Preview Assets.xcassets */; };
 		BC2CAAAA23CF827600E2FE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAAA823CF827600E2FE1D /* LaunchScreen.storyboard */; };
 		BC2CAAB323CF878D00E2FE1D /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2CAAB223CF878D00E2FE1D /* LabelView.swift */; };
+		BC2CAAB523CF9E5200E2FE1D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2CAAB423CF9E5200E2FE1D /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BC2CAAA923CF827600E2FE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC2CAAAB23CF827600E2FE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2CAAB223CF878D00E2FE1D /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		BC2CAAB423CF9E5200E2FE1D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2CAAB223CF878D00E2FE1D /* LabelView.swift */,
+				BC2CAAB423CF9E5200E2FE1D /* RoundedButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2CAA9E23CF827500E2FE1D /* AppDelegate.swift in Sources */,
+				BC2CAAB523CF9E5200E2FE1D /* RoundedButton.swift in Sources */,
 				BC2CAAB323CF878D00E2FE1D /* LabelView.swift in Sources */,
 				BC2CAAA023CF827500E2FE1D /* SceneDelegate.swift in Sources */,
 				BC2CAAA223CF827500E2FE1D /* ContentView.swift in Sources */,
